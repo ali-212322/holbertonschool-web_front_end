@@ -1,0 +1,41 @@
+/* Task 3 - Reuse and repeat with variables */
+
+/* Task 1 - Effortless transitions when scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Define custom properties */
+:root {
+  --color-primary: #D73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+}
+
+/* Set foreground color for body */
+body {
+  color: var(--text-color);
+}
+
+/* Set foreground color for all anchor elements */
+a {
+  color: var(--text-color);
+}
+
+/* Hide elements with visually-hidden class */
+.visually-hidden {
+  display: none;
+}
+
+/* Set color for card-category class */
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Set color for section-tagline class */
+.section-tagline {
+  color: var(--color-primary);
+}
