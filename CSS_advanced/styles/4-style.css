@@ -1,0 +1,55 @@
+/* Task 4 - Variables for storing certain font types */
+
+/* Task 1 - Effortless transitions when scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Define custom properties */
+:root {
+  --color-primary: #D73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+
+  --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Set foreground color and font family for body */
+body {
+  color: var(--text-color);
+  font-family: var(--font-family-base);
+}
+
+/* Set foreground color for all anchor elements */
+a {
+  color: var(--text-color);
+}
+
+/* Hide elements with visually-hidden class */
+.visually-hidden {
+  display: none;
+}
+
+/* Set color for card-category class */
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Set color for section-tagline class */
+.section-tagline {
+  color: var(--color-primary);
+}
+
+/* Set font family for all heading levels */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-title);
+}
