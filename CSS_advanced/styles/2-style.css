@@ -1,0 +1,31 @@
+/* Task 2 - Do you know your color values? */
+
+/* Task 1 - Effortless transitions when scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set foreground color for body */
+body {
+  color: #161616;
+}
+
+/* Set foreground color for all anchor elements */
+a {
+  color: #161616;
+}
+
+/* Hide elements with visually-hidden class */
+.visually-hidden {
+  display: none;
+}
+
+/* Set color for card-category class */
+.card-category {
+  color: #D73953;
+}
+
+/* Set color for section-tagline class */
+.section-tagline {
+  color: #D73953;
+}
